@@ -7,7 +7,6 @@ import ru.job4j.chess.firuges.Figure;
 import static org.assertj.core.api.Assertions.*;
 
 class BishopBlackTest {
-
     @Test
     public void whenPositionIsTrue() {
         BishopBlack bishopBlack = new BishopBlack(Cell.D3);
